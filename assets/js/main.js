@@ -112,7 +112,7 @@ window.addEventListener('scroll', scrollUp)
 
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
+const darkTheme = 'light-theme'
 const iconTheme = 'ri-sun-line'
 
 // Previously selected topic (if user selected)
