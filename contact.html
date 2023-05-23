@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <section class="contact section" id="contact">
@@ -18,10 +19,23 @@
         <div class="contact__container container grid">
             <form action="" class="contact__form" id="contact__form">
                 <div class="contact__group">
-                    <input type="text" name="user_name" class="contact__input">
+                    <input type="text" name="user_name" required placeholder="Introduce tu nombre" class="contact__input">
+                    <input type="email" name="user_email" required placeholder="Introduce tu correo" class="contact__input">
                 </div>
+
+                <textarea name="user_project" required placeholder="Escribe tu mensaje" class="contact__input"></textarea>
+                <p class="contact__message" id="contact-message"></p>
+
+                <button type="submit" class="button contact__button">
+                    Enviar
+                </button>
             </form>
         </div>
     </section>
+    <!--============== EMAIL JS =====================-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
