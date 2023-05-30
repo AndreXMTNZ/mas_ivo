@@ -648,8 +648,8 @@ the website, in dark theme
 }
 
 .testimonial__img{
-  width: 200px;
-  /*height: 200px;*/
+  /*width: 225px;*/
+  height: 200px;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
