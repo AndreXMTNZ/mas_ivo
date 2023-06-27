@@ -104,14 +104,14 @@ window.addEventListener('scroll', scrollActive)
 
 /*=============== EMAIL JS =====================*/
 
-const contact__form = document.getElementById('contact-form'),
+const contactForm = document.getElementById('contact-form'),
     contactMessage = document.getElementById('contact-message')
 
 const sendEmail = (e) =>{
     e.preventDefault()
 
     //serviceID - templateID - #form - publicKey
-    emailjs.sendForm('service_asu1gzg', 'template_dr1cf4h', '#contact-form', 'Rhybzh2LoSglmjtpm')
+    emailjs.sendForm('service_yxknes6', 'template_vjs54xf', '#contact-form', 'Gdsdqrk49nLg2yyYN')
         .then(() =>{
             contactMessage.textContent = 'Mensaje enviado ✅'
         }, () =>{
